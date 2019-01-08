@@ -1,0 +1,22 @@
+{
+  "name": "algebraic-types",
+  "version": "0.0.1",
+  "description": "Algebraic Types is a small library with largely the same surface area as [daggy](https://github.com/fantasyland/daggy), with a couple of small differences.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisrstokes/algebraic-types.git"
+  },
+  "author": "Francis Stokes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francisrstokes/algebraic-types/issues"
+  },
+  "homepage": "https://github.com/francisrstokes/algebraic-types#readme"
+}
