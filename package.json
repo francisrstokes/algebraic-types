@@ -1,6 +1,6 @@
 {
   "name": "algebraic-types",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Algebraic Types is a small library with largely the same surface area as [daggy](https://github.com/fantasyland/daggy), with a couple of small differences.",
   "main": "index.js",
   "directories": {
