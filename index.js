@@ -38,7 +38,7 @@ const createChildConstructor = (parent, proto, name, variables) => {
   return ofFn;
 };
 
-const createAlgebraicType = (typeName, constructors) => {
+const createUnionType = (typeName, constructors) => {
   const main = createNamedConstructor(typeName, function(){});
   const constructorNames = Object.keys(constructors);
 
@@ -80,5 +80,5 @@ module.exports = {
   variable,
   recursiveVariable,
   typedVariable,
-  createAlgebraicType
+  createUnionType
 };

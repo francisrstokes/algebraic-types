@@ -9,12 +9,12 @@ Algebraic Types is a small library with largely the same surface area as [daggy]
 
 ```javascript
 const {
-  createAlgebraicType,
+  createUnionType,
   recursive,
   variable
 } = require('algebraic-types');
 
-const BinaryTree = createAlgebraicType('BinaryTree', {
+const BinaryTree = createUnionType('BinaryTree', {
   Leaf: [variable('a')],
   Branch: [recursive('left'), recursive('right')]
 });

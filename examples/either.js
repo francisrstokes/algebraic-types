@@ -1,9 +1,9 @@
 const {
   variable,
-  createAlgebraicType
+  createUnionType
 } = require('..');
 
-const Result = createAlgebraicType('Result', {
+const Result = createUnionType('Result', {
   Ok: [variable('x')],
   Error: [variable('x')]
 });

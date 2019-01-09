@@ -1,10 +1,10 @@
 const {
   variable,
   recursiveVariable,
-  createAlgebraicType
+  createUnionType
 } = require('..');
 
-const List = createAlgebraicType('List', {
+const List = createUnionType('List', {
   Nil: [],
   Cons: [variable('a'), recursiveVariable('tail')]
 });

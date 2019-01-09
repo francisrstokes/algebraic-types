@@ -1,10 +1,10 @@
 const {
   variable,
   recursiveVariable,
-  createAlgebraicType
+  createUnionType
 } = require('..');
 
-const Tree = createAlgebraicType('Tree', {
+const Tree = createUnionType('Tree', {
   Leaf: [variable('a')],
   Branch: [recursiveVariable('l'), recursiveVariable('r')]
 });
